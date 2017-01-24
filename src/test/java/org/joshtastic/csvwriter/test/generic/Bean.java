@@ -1,6 +1,6 @@
 package org.joshtastic.csvwriter.test.generic;
 
-import org.joshtastic.annotations.CsvEntry;
+import org.joshtastic.csvwriter.annotations.CsvEntry;
 
 /**
  *

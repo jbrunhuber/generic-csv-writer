@@ -1,4 +1,4 @@
-package org.joshtastic.annotations.transformer;
+package org.joshtastic.csvwriter.transformer;
 
 /**
  * Transforms german umlauts (e. g. ä -> ae)

@@ -1,4 +1,4 @@
-package org.joshtastic.annotations.transformer;
+package org.joshtastic.csvwriter.transformer;
 
 /**
  * Transforms boolean values to integers (e. g.  true -> 1)

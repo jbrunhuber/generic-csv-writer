@@ -1,6 +1,6 @@
 package org.joshtastic.csvwriter.test.transformers;
 
-import org.joshtastic.annotations.transformer.UmlautTransformer;
+import org.joshtastic.csvwriter.transformer.UmlautTransformer;
 import org.junit.Assert;
 import org.junit.Test;
 

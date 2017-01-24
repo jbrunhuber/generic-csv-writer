@@ -1,6 +1,6 @@
-package org.joshtastic.annotations;
+package org.joshtastic.csvwriter.annotations;
 
-import org.joshtastic.annotations.transformer.CsvTransformer;
+import org.joshtastic.csvwriter.transformer.CsvTransformer;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

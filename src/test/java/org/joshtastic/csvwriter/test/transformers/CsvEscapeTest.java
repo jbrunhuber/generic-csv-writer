@@ -1,6 +1,6 @@
 package org.joshtastic.csvwriter.test.transformers;
 
-import org.joshtastic.annotations.transformer.EscapeTransformer;
+import org.joshtastic.csvwriter.transformer.EscapeTransformer;
 import org.junit.Assert;
 import org.junit.Test;
 

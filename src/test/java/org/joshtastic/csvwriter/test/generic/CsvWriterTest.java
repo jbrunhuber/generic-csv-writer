@@ -1,7 +1,7 @@
 package org.joshtastic.csvwriter.test.generic;
 
 import org.apache.log4j.Logger;
-import org.joshtastic.annotations.GenericCsvWriter;
+import org.joshtastic.csvwriter.GenericCsvWriter;
 import org.junit.Assert;
 import org.junit.Test;
 

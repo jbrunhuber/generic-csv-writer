@@ -1,6 +1,6 @@
 package org.joshtastic.csvwriter.test.transformers;
 
-import org.joshtastic.annotations.transformer.BooleanToIntegerTransformer;
+import org.joshtastic.csvwriter.transformer.BooleanToIntegerTransformer;
 import org.junit.Assert;
 import org.junit.Test;
 

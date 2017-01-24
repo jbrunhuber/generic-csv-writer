@@ -1,7 +1,9 @@
-package org.joshtastic.annotations;
+package org.joshtastic.csvwriter;
 
 import org.apache.log4j.Logger;
-import org.joshtastic.annotations.transformer.CsvTransformer;
+import org.joshtastic.csvwriter.annotations.CsvEntry;
+import org.joshtastic.csvwriter.annotations.CsvTransform;
+import org.joshtastic.csvwriter.transformer.CsvTransformer;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
