@@ -3,7 +3,7 @@ package org.joshtastic.csvwriter.transformer;
 /**
  * Transforms boolean values to integers (e. g.  true -> 1)
  */
-public class BooleanToIntegerTransformer extends CsvTransformer {
+public class BooleanToIntegerTransformer implements Transformable {
 
     /**
      *

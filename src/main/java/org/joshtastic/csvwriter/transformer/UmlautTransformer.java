@@ -3,7 +3,7 @@ package org.joshtastic.csvwriter.transformer;
 /**
  * Transforms german umlauts (e. g. ä -> ae)
  */
-public class UmlautTransformer extends CsvTransformer {
+public class UmlautTransformer implements Transformable {
 
     /**
      *

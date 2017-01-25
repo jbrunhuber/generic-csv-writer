@@ -3,7 +3,7 @@ package org.joshtastic.csvwriter;
 import org.apache.log4j.Logger;
 import org.joshtastic.csvwriter.annotations.CsvEntry;
 import org.joshtastic.csvwriter.annotations.CsvTransform;
-import org.joshtastic.csvwriter.transformer.CsvTransformer;
+import org.joshtastic.csvwriter.transformer.Transformable;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -34,7 +34,7 @@ public class GenericCsvWriter<T> {
      * @param dataList the list of the actual data
      * @return csv-file as a byte-array
      */
-    public byte[] writeToByteArray(List<T> dataList) {
+    public byte[] generateByteArray(List<T> dataList) {
 
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         try {
@@ -44,7 +44,6 @@ public class GenericCsvWriter<T> {
         }
         return bos.toByteArray();
     }
-
 
     /**
      * Writes a whole list comma-separated in a steam
@@ -124,7 +123,7 @@ public class GenericCsvWriter<T> {
 
                 if (field.isAnnotationPresent(CsvTransform.class)) {
                     CsvTransform transform = field.getAnnotation(CsvTransform.class);
-                    CsvTransformer transformerInstance = transform.value().newInstance();
+                    Transformable transformerInstance = transform.value().newInstance();
                     fieldValue = transformerInstance.transform(fieldValue);
                 }
                 this.write(fieldValue, stream);

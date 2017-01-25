@@ -3,7 +3,7 @@ package org.joshtastic.csvwriter.transformer;
 /**
  * Escapes a csv string literal
  */
-public class EscapeTransformer extends CsvTransformer {
+public class EscapeTransformer implements Transformable {
 
     /**
      *

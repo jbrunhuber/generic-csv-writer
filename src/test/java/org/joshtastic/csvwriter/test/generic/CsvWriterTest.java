@@ -40,7 +40,7 @@ public class CsvWriterTest {
         beans.add(robusta);
 
         GenericCsvWriter<Bean> writer = new GenericCsvWriter<>();
-        byte[] csvFile = writer.writeToByteArray(beans);
+        byte[] csvFile = writer.generateByteArray(beans);
 
         String expected = readExpected();
         Assert.assertEquals(expected, new String(csvFile));
@@ -67,4 +67,3 @@ public class CsvWriterTest {
         return expected;
     }
 }
-
