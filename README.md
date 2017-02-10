@@ -48,6 +48,7 @@ You can use your transformer the same way like the existing transformers.
 public class MagicUnicornTransformer implements Transformable {
 
 ```java
+public class MagicUnicornTransformer implements Transformable {
     /**
      *
      */
