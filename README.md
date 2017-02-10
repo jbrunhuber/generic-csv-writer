@@ -1,6 +1,7 @@
 # generic-csv-writer
 A simple CSV-writing library
 
+[![Build status](https://ci.appveyor.com/api/projects/status/2h5w5tbbixyv4vcm?svg=true)](https://ci.appveyor.com/project/jbrunhuber/generic-csv-writer)
 
 ## Export a CSV File
 
