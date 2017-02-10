@@ -1,0 +1,6 @@
+# build the library with gradle
+build_script:
+  - gradlew clean build
+
+test_script:
+  - gradlew test
